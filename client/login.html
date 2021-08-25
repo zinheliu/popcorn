@@ -1,0 +1,59 @@
+<!--
+    @date: 08/18/2021
+    @page: Login
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+						
+		<title>Popcorn</title>
+		<link rel="shortcut icon" href="img/favicon.svg">
+		
+        <link type="text/css" rel="stylesheet" href="css/fonts.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+	</head>
+	
+	<body>
+        <div class="login-wrap">
+            <a href="/" title="Logo" class="logo">
+                <img src="img/logo.svg" alt="Logo" />
+            </a>
+            <h2 class="mb--1">Welcome back, entertainment buff!</h2>
+            <h4>Login to view your recommendations.</h4>
+            <a href="#this" class="google-btn">
+                <img src="img/ico-google.svg" alt="Google"/>
+                Continue with Google
+            </a>
+
+            <form class="login-form">
+                <fieldset>
+                    <legend>Or sign in with</legend>
+                </fieldset>
+                <div class="input-wrap">
+                    <label for="email">Email address</label>
+                    <input type="text" id="email" name="email" placeholder="Your email address" />
+                </div>
+                <div class="input-wrap">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Your Password" />
+                    <img src="img/ico-hide.png" alt="Hide Password" id="hidePass" />
+                </div>
+                <div class="input-wrap flex flex-between flex-row">
+                    <span>Must be 8 characters or more</span>
+                    <a href="forgot.html" class="forgot-link">Forgot Password</a>
+                </div>
+
+                <a href="#this" class="signup-btn">Login</a>
+            </form>
+
+            <p class="mt--2">Don't have an account? 
+                <a href="signup.html">Sign Up</a>
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,206 @@
+
+#app{
+  background-color: #000;
+  padding: 50px 0;
+  overflow-x: auto;
+}
+.h-text{
+  font-family: SFProDisplay;
+  font-weight: bold;
+  font-size: 40px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #fff;
+}
+.h-text-2{
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.h-text-3{
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.h-text-4{
+  font-family: SFProDisplay;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.t-desc{
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.t-desc-2{
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.t-desc-3{
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.c-offer-text{
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 130%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FEDA4A;
+}
+.c-card{
+  background: linear-gradient(347.54deg, rgba(255, 255, 255, 0.01) 8.65%, rgba(255, 255, 255, 0.03) 8.67%, rgba(255, 255, 255, 0.19) 224.51%, rgba(255, 255, 255, 0.08) 224.51%);
+  box-shadow: -32px 42px 42px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  padding: 59px 41px;
+}
+.c-card-3{
+  background: linear-gradient(347.54deg, rgba(255, 255, 255, 0.01) 8.65%, rgba(255, 255, 255, 0.03) 8.67%, rgba(255, 255, 255, 0.19) 224.51%, rgba(255, 255, 255, 0.08) 224.51%);
+  box-shadow: -32px 42px 42px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  padding: 30px 41px 80px 41px;
+}
+.c-card-2{
+  background: linear-gradient(347.54deg, rgba(255, 255, 255, 0.01) 8.65%, rgba(255, 255, 255, 0.03) 8.67%, rgba(255, 255, 255, 0.19) 224.51%, rgba(255, 255, 255, 0.08) 224.51%);
+  box-shadow: -32px 42px 42px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px 0;
+}
+.film-cat{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  min-width: 76px;
+  height: 33px;
+  background: rgba(111, 207, 151, 0.14);
+  border-radius: 32px;
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #27AE60;
+}
+.add-plus-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 183px;
+  height: 33px;
+  background: #DE3B40;
+  border-radius: 29px;
+  border: none;
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.c-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 233px;
+  height: 72px;
+  background: #DE3B40;
+  border-radius: 36px;
+  border: none;
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.c-btn-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 49px;
+  background: #DE3B40;
+  border-radius: 8px;
+  border: none;
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.d-flex{
+  display: flex;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.align-items-center{
+  align-items: center;
+}
+.w-100{
+  width: 100%;
+}
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-center{
+  text-align: center;
+}
+.dash{
+  width: 100%;
+  height: 1px;
+  background-color: #C4C4C4;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .d-md-flex{
+    display: flex;
+  }
+}

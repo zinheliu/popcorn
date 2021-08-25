@@ -1,0 +1,296 @@
+<!--
+    @date: 08/20/2021
+    @page: Welcome Email Template
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" lang="en">
+	<head>
+		<title>Popcorn</title>
+        <meta property="og:title" content="Email Verification">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body {
+                background: #0d0d0d;
+                font-family: Tahoma, sans-serif;
+                margin: 0; padding: 0;
+            }
+            .container {
+                width: 100%; max-width: 900px;
+                margin:auto; text-align: center;
+                margin-bottom: 2rem;
+            }
+            a, a:hover { text-decoration: none; }
+            .mt--2 { margin-top: 2rem !important; }
+            .mb--2 { margin-bottom: 2rem !important; }
+            .text-left { text-align:left !important; }
+            .text-center { text-align:center !important; }
+            h2 {
+                font-size: 24px; color: white;
+                margin-top: 1.5rem; margin-bottom: 1.1rem;
+                line-height: 2rem;
+            }
+            h3 {
+                font-size: 18px; color: white;
+                margin-top: 1.5rem; margin-bottom: 1.1rem;
+            }
+            .wrap {
+                width: 70%; margin: 1rem auto;
+                background: #252525;
+                border: 2px solid #555;
+                border-radius: 8px;
+            }
+            p {
+                color: #BBB; font-size: 1rem;
+                line-height: 1.6rem; text-align: center;
+            }
+            .welcome-desc {
+                width: 450px; margin: 0 auto;
+                border-bottom: 1px solid #313131;
+                padding-bottom: 2rem;
+            }
+            .discount-wrap {
+                width: 450px; margin: 0 auto;
+                border-top: 1px solid #313131;
+                padding-top: 2rem;
+            }
+            .wrap h5 {
+                color: #BBB; font-size: 1.2rem;
+                margin: 2rem 1rem 1rem 2rem;
+            }
+            .wrap p {
+                margin: 1rem; margin-left: 2rem;
+            }
+            .tv-items {
+                margin: 2rem; display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 3rem;
+                justify-content: space-between;
+            }
+            .tv-items div {
+                border: 2px solid #555;
+                border-radius: 8px;
+                background: #252525;
+                width: 48%;
+            }
+            .tv-items div p {
+                font-size: 0.875rem;
+                margin: 0;
+            }
+            .add-btn {
+                width: 70%;
+                display: inline-block;
+                text-align: center;
+                background: #DE3B40;
+                font-size: 12px;
+                padding: 10px;
+                border-radius: 24px;
+                color: white;
+                margin-bottom: 1.2rem;
+            }
+            .film-items img {
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+                object-fit: cover;
+            }
+            .discount {
+                width: 560px;
+                height: 272px;
+                margin: 2rem auto;
+                text-align: left;
+                background: url('../img/discount.svg') no-repeat center top;
+            }
+            .discount h3 {
+                margin: 0;
+                color: white;
+                font-size: 24px;
+                padding-top: 2rem;
+                width: 75%;
+                text-align: center;
+            }
+            .discount h1 {
+                color: #FEDA4A;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                font-size: 60px;
+                width: 75%;
+                text-align: center;
+            }
+            .discount h2 {
+                color: white;
+                font-size: 40px;
+                width: 75%;
+                text-align: center;
+            }
+            .claim-link {
+                color: #FEDA4A;
+                text-decoration: underline;
+                font-size: 32px;
+                font-weight: 400;
+            }
+            .tier h5 { color: white; }
+            .tier { width: 60%; margin-top: -2rem; }
+            .tier h2 {
+                font-size: 40px;
+                color: white;
+                margin-left: 2rem;
+            }
+            .tier h2 span {
+                color: #BBB;
+                font-size: 1.2rem;
+            }
+            .checkboxes {
+                border-top: 1px solid #313131;
+                padding-top: 1rem;
+                margin: 2rem;
+                margin-right: 1rem;
+            }
+            .checkboxes p {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                height: 36px;
+                margin: 0;
+            }
+            .checkboxes p img { margin-right: 1rem; }
+            .verify-btn {
+                display: inline-block;
+                padding: 1rem 1.5rem;
+                background: #DE3B40;
+                text-align: center;
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                border-radius: 24px;
+            }
+        </style>
+	</head>
+	
+	<body>
+        <div class="container">
+            <br /><br />
+            <a href="/" title="Logo" class="logo">
+                <img src="../img/logo.svg" alt="Logo" />
+            </a>
+
+            <h2>Welcome to the Club!</h2>
+            <p class="welcome-desc mb--2">
+                We're glad you joined Popcorn! Click here for pro-tips to<br />
+                make sure we end up in your inbox each Tuesday and <br />
+                Friday And here's what to expect:
+            </p>
+
+            <!-- TV Tuesdays -->
+            <div class="wrap">
+                <br />
+                <h5 class="text-left">TV Tuesdays</h5>
+                <p class="text-left">
+                    Lorem ipsum dolor sit amet, consectetur<br />
+                    adipiscing elit. Sit id dui massa neque<br />
+                    tincidunt in.
+                </p>
+                <div class="tv-items">
+                    <div>
+                        <img src="../img/mark1.png" alt="" class="mt--2" />
+                        <p>lorem ipsum dorem</p>
+                        <h3>$29/Mont</h3>
+                        <a href="#this" title="+ Add" class="add-btn">+ Add</a>
+                    </div>
+                    <div>
+                        <img src="../img/mark1.png" alt="" class="mt--2" />
+                        <p>lorem ipsum dorem</p>
+                        <h3>$29/Mont</h3>
+                        <a href="#this" title="+ Add" class="add-btn">+ Add</a>
+                    </div>
+                </div>
+            </div>
+            <!-- TV Tuesdays end -->
+
+            <!-- Film Rec Fridays -->
+            <div class="wrap">
+                <br />
+                <h5 class="text-left">Film Rec Fridays</h5>
+                <p class="text-left">
+                    Lorem ipsum dolor sit amet, consectetur<br />
+                    adipiscing elit. Sit id dui massa neque<br />
+                    tincidunt in.
+                </p>
+                <div class="tv-items film-items">
+                    <div>
+                        <img src="../img/1.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img src="../img/2.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- Film Rec Fridays end -->
+            <br />
+
+            <!-- Discount -->
+            <div class="discount-wrap mt--2">
+                <h2>Get Premium at a<br /> Discount Price</h2>
+                <p>
+                    We're glad you joined Popcom! Click here for pro-tips<br />
+                    to make sure we end up in your inbox each Tuesday<br />
+                    and Friday And here's what to expect:
+                </p>
+            </div>
+            <div class="discount">
+                <h3>Popcorn Premium Discount</h3>
+                <h1>50% Off</h1>
+                <h2>CODE: 930AG4</h2>
+            </div>
+            <!-- Discount end -->
+
+            <p class="welcome-desc mt--2 mb--2">
+                <br />
+                <a href="#this" title="CLAIM OFFER" class="claim-link">CLAIM OFFER</a>
+                <br /><br /><br />
+            </p>
+            <br />
+
+            <div class="wrap">
+                <br />
+                <h5 class="text-left">TV Tuesdays</h5>
+                <p class="text-left">
+                    Lorem ipsum dolor sit amet, consectetur<br />
+                    adipiscing elit. Sit id dui massa neque<br />
+                    tincidunt in.
+                </p> <br /><br />
+            </div>
+
+            <div class="wrap tier">
+                <br />
+                <h5 class="text-left">Premium Tier</h5>
+                <h2 class="text-left">$15 <span>/ year</span></h2>
+                <p class="text-left">
+                    Lorem ipsum dorem Title Text here Lorem dorem Title
+                    Lorem dorem Title Text here Lorem
+                </p>
+                <div class="checkboxes text-left">
+                    <p>
+                        <img src="../img/ico-check.svg" alt="" />
+                        <span>Access to Film Rec Fridays</span>
+                    </p>
+                    <p>
+                        <img src="../img/ico-check.svg" alt="" />
+                        <span>Access to TV Tuesday</span>
+                    </p>
+                    <p>
+                        <img src="../img/ico-check.svg" alt="" />
+                        <span>Recomendation Volumn : Low</span>
+                    </p>
+                    <p>
+                        <img src="../img/ico-check.svg" alt="" />
+                        <span>More</span>
+                    </p>
+                    <a href="#this" title="Continue with Premium" class="verify-btn mt--2 mb--2">Continue with Premium</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

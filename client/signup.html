@@ -1,0 +1,67 @@
+<!--
+    @date: 08/18/2021
+    @page: Signup
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+						
+		<title>Popcorn</title>
+		<link rel="shortcut icon" href="img/favicon.svg">
+		
+        <link type="text/css" rel="stylesheet" href="css/fonts.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+	</head>
+	
+	<body>
+        <div class="login-wrap">
+            <a href="/" title="Logo" class="logo">
+                <img src="img/logo.svg" alt="Logo" />
+            </a>
+            <h2 class="mb--1">Welcome, lets get started!</h2>
+            <h4>Tell us where to send your recommendations</h4>
+            <p>By sign up, I agre to the 
+                <a href="#this">Terms of Use</a>
+                and
+                <a href="#this">Privacy Policy</a>
+            </p>
+            <a href="#this" class="google-btn">
+                <img src="img/ico-google.svg" alt="Google" />
+                Continue with Google
+            </a>
+
+            <form class="login-form">
+                <fieldset>
+                    <legend>Or sign up with</legend>
+                </fieldset>
+                <div class="input-wrap">
+                    <label for="email">Email address</label>
+                    <input type="text" id="email" name="email" placeholder="Your email address" />
+                </div>
+                <div class="input-wrap">
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your Name" />
+                </div>
+                <div class="input-wrap">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Your Password" />
+                    <img src="img/ico-hide.png" alt="Hide Password" id="hidePass" />
+                </div>
+                <div class="input-wrap">
+                    <span>Must be 8 characters or more</span>
+                </div>
+
+                <a href="#this" class="signup-btn">Sign Up</a>
+            </form>
+
+            <p class="mt--2">Already have an account?
+                <a href="login.html">Log In</a>
+            </p>
+        </div>
+    </body>
+</html>
